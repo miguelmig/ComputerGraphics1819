@@ -20,8 +20,7 @@ We also refined our knowledge about C++ and used for the first time the library 
 
 * [Miguel Oliveira](github.com/miguelmig)
 * [Pedro Moura](https://github.com/pedrorpmoura)
-* [Gonçalo Borges](https://www.linkedin.com/in/gonçalo-borges-b1a287145/)
-* 
+* [Gonçalo Borges](https://www.linkedin.com/in/gonçalo-borges-b1a287145/) 
 
 **Assignment's Final Mark** : 14.50
 
