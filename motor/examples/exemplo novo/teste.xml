@@ -1,0 +1,235 @@
+<scene>
+	<lights>
+		<light type="POINT" posX = "25" posY = "25" posZ = "25" />
+	</lights>
+	
+    <models>
+        <model file="sun.3d" diffR = "0.9" diffG = "0.1" diffB = "0.1" />
+    </models>
+    
+    <group>	
+        <translate time="4.8">
+            <point X="20.0" Y="0.0" Z="0.0"/>
+            <point X="18.4" Y="0.0" Z="6.7"/>
+            <point X="14.2" Y="0.0" Z="12.3"/>
+            <point X="7.7" Y="0.0" Z="16.1"/>
+            <point X="0.0" Y="0.0" Z="17.5"/>
+            <point X="-7.7" Y="0.0" Z="16.1"/>
+            <point X="-14.2" Y="0.0" Z="12.3"/>
+            <point X="-18.4" Y="0.0" Z="6.7"/>
+            <point X="-20.0" Y="0.0" Z="0.0"/>
+            <point X="-18.4" Y="0.0" Z="-6.7"/>
+            <point X="-14.2" Y="0.0" Z="-12.3"/>
+            <point X="-7.7" Y="0.0" Z="-16.1"/>
+            <point X="0.0" Y="0.0" Z="-17.5"/>
+            <point X="7.7" Y="0.0" Z="-16.1"/>
+            <point X="14.2" Y="0.0" Z="-12.3"/>
+            <point X="18.4" Y="0.0" Z="-6.7"/>
+        </translate>
+        <models>
+            <model file="mercury.3d" />
+        </models>
+    </group>
+        
+    <group>
+        <translate time="12.5">
+            <point X="30.0" Y="0.0" Z="0.0"/>
+            <point X="27.7" Y="0.0" Z="10.1"/>
+            <point X="21.2" Y="0.0" Z="18.5"/>
+            <point X="11.5" Y="0.0" Z="24.2"/>
+            <point X="0.0" Y="0.0" Z="26.2"/>
+            <point X="-11.5" Y="0.0" Z="24.2"/>
+            <point X="-21.2" Y="0.0" Z="18.5"/>
+            <point X="-27.7" Y="0.0" Z="10.1"/>
+            <point X="-30.0" Y="0.0" Z="0.0"/>
+            <point X="-27.7" Y="0.0" Z="-10.1"/>
+            <point X="-21.2" Y="0.0" Z="-18.5"/>
+            <point X="-11.5" Y="0.0" Z="-24.2"/>
+            <point X="0.0" Y="0.0" Z="-26.2"/>
+            <point X="11.5" Y="0.0" Z="-24.2"/>
+            <point X="21.2" Y="0.0" Z="-18.5"/>
+            <point X="27.7" Y="0.0" Z="-10.1"/>
+        </translate>
+        <models>
+            <model file="venus.3d" />
+        </models>
+    </group>
+        
+    <group>
+        <translate time="20">
+            <point X="40" Y="0" Z="0"/>
+            <point X="36.9" Y="0" Z="13.4"/>
+            <point X="28.3" Y="0" Z="24.7"/>
+            <point X="15.3" Y="0" Z="32.3"/>
+            <point X="0" Y="0" Z="35"/>
+            <point X="-15.3" Y="0" Z="32.3"/>
+            <point X="-28.3" Y="0" Z="24.7"/>
+            <point X="-36.9" Y="0" Z="13.4"/>
+            <point X="-40" Y="0" Z="0"/>
+            <point X="-36.9" Y="0" Z="-13.4"/>
+            <point X="-28.3" Y="0" Z="-24.7"/>
+            <point X="-15.3" Y="0" Z="-32.3"/>
+            <point X="0" Y="0" Z="-35"/>
+            <point X="15.3" Y="0" Z="-32.3"/>
+            <point X="28.3" Y="0" Z="-24.7"/>
+            <point X="36.9" Y="0" Z="-13.4"/>
+        </translate>
+        <models>
+            <model file="earth.3d" />
+        </models>
+        
+        <group>
+            <rotate time="5" axisX="0" axisY="0" axisZ="1" />
+            <translate X="2" />
+            <models>
+                <model file="moon.3d" />
+            </models>
+        </group>
+    </group>
+
+    <group>
+        <translate time="37.6">
+            <point X="50.0" Y="0.0" Z="0.0"/>
+            <point X="46.1" Y="0.0" Z="16.8"/>
+            <point X="35.4" Y="0.0" Z="30.9"/>
+            <point X="19.1" Y="0.0" Z="40.4"/>
+            <point X="0.0" Y="0.0" Z="43.8"/>
+            <point X="-19.1" Y="0.0" Z="40.4"/>
+            <point X="-35.4" Y="0.0" Z="30.9"/>
+            <point X="-46.1" Y="0.0" Z="16.8"/>
+            <point X="-50.0" Y="0.0" Z="0.0"/>
+            <point X="-46.1" Y="0.0" Z="-16.8"/>
+            <point X="-35.4" Y="0.0" Z="-30.9"/>
+            <point X="-19.1" Y="0.0" Z="-40.4"/>
+            <point X="0.0" Y="0.0" Z="-43.8"/>
+            <point X="19.1" Y="0.0" Z="-40.4"/>
+            <point X="35.4" Y="0.0" Z="-30.9"/>
+            <point X="46.1" Y="0.0" Z="-16.8"/>
+        </translate>
+        <models>
+            <model file="mars.3d" />
+        </models>
+    </group>
+
+    <group>
+        <translate time="240.0">
+            <point X="65.0" Y="0.0" Z="0.0"/>
+            <point X="60.0" Y="0.0" Z="21.8"/>
+            <point X="46.0" Y="0.0" Z="40.1"/>
+            <point X="24.9" Y="0.0" Z="52.5"/>
+            <point X="0.0" Y="0.0" Z="56.9"/>
+            <point X="-24.9" Y="0.0" Z="52.5"/>
+            <point X="-46.0" Y="0.0" Z="40.1"/>
+            <point X="-60.0" Y="0.0" Z="21.8"/>
+            <point X="-65.0" Y="0.0" Z="0.0"/>
+            <point X="-60.0" Y="0.0" Z="-21.8"/>
+            <point X="-46.0" Y="0.0" Z="-40.1"/>
+            <point X="-24.9" Y="0.0" Z="-52.5"/>
+            <point X="0.0" Y="0.0" Z="-56.9"/>
+            <point X="24.9" Y="0.0" Z="-52.5"/>
+            <point X="46.0" Y="0.0" Z="-40.1"/>
+            <point X="60.0" Y="0.0" Z="-21.8"/>
+        </translate>
+        <models>
+            <model file="jupyter.3d" />
+        </models>
+    </group>
+    
+    <group>
+        <translate time="580.0">
+            <point X="80.0" Y="0.0" Z="0.0"/>
+            <point X="73.8" Y="0.0" Z="26.8"/>
+            <point X="56.6" Y="0.0" Z="49.4"/>
+            <point X="30.6" Y="0.0" Z="64.6"/>
+            <point X="0.0" Y="0.0" Z="70.0"/>
+            <point X="-30.6" Y="0.0" Z="64.6"/>
+            <point X="-56.6" Y="0.0" Z="49.4"/>
+            <point X="-73.8" Y="0.0" Z="26.8"/>
+            <point X="-80.0" Y="0.0" Z="0.0"/>
+            <point X="-73.8" Y="0.0" Z="-26.8"/>
+            <point X="-56.6" Y="0.0" Z="-49.4"/>
+            <point X="-30.6" Y="0.0" Z="-64.6"/>
+            <point X="0.0" Y="0.0" Z="-70.0"/>
+            <point X="30.6" Y="0.0" Z="-64.6"/>
+            <point X="56.6" Y="0.0" Z="-49.4"/>
+            <point X="73.8" Y="0.0" Z="-26.8"/>
+        </translate>
+        <models>
+            <model file="saturn.3d" />
+        </models>
+
+        <group>
+            <rotate angle="20" axisX="1" axisY="0" axisZ="1" />
+            <models>
+                <model file="inner_ring.3d" />
+                <model file="outer_ring.3d" />
+            </models>
+        </group>
+    </group>
+
+    <group>
+        <translate time="1680.0">
+            <point X="90.0" Y="0.0" Z="0.0"/>
+            <point X="83.0" Y="0.0" Z="30.2"/>
+            <point X="63.7" Y="0.0" Z="55.6"/>
+            <point X="34.4" Y="0.0" Z="72.7"/>
+            <point X="0.0" Y="0.0" Z="78.8"/>
+            <point X="-34.4" Y="0.0" Z="72.7"/>
+            <point X="-63.7" Y="0.0" Z="55.6"/>
+            <point X="-83.0" Y="0.0" Z="30.2"/>
+            <point X="-90.0" Y="0.0" Z="0.0"/>
+            <point X="-83.0" Y="0.0" Z="-30.2"/>
+            <point X="-63.7" Y="0.0" Z="-55.6"/>
+            <point X="-34.4" Y="0.0" Z="-72.7"/>
+            <point X="0.0" Y="0.0" Z="-78.8"/>
+            <point X="34.4" Y="0.0" Z="-72.7"/>
+            <point X="63.7" Y="0.0" Z="-55.6"/>
+            <point X="83.0" Y="0.0" Z="-30.2"/>
+        </translate>
+        <models>
+            <model file="uranus.3d" />
+        </models>
+    </group>
+
+    <group>
+        <translate time="3300.0">
+            <point X="100.0" Y="0.0" Z="0.0"/>
+            <point X="92.2" Y="0.0" Z="33.5"/>
+            <point X="70.8" Y="0.0" Z="61.8"/>
+            <point X="38.2" Y="0.0" Z="80.8"/>
+            <point X="0.0" Y="0.0" Z="87.5"/>
+            <point X="-38.2" Y="0.0" Z="80.8"/>
+            <point X="-70.8" Y="0.0" Z="61.8"/>
+            <point X="-92.2" Y="0.0" Z="33.5"/>
+            <point X="-100.0" Y="0.0" Z="0.0"/>
+            <point X="-92.2" Y="0.0" Z="-33.5"/>
+            <point X="-70.8" Y="0.0" Z="-61.8"/>
+            <point X="-38.2" Y="0.0" Z="-80.8"/>
+            <point X="0.0" Y="0.0" Z="-87.5"/>
+            <point X="38.2" Y="0.0" Z="-80.8"/>
+            <point X="70.8" Y="0.0" Z="-61.8"/>
+            <point X="92.2" Y="0.0" Z="-33.5"/>
+        </translate>
+        <models>
+            <model file = "neptune.3d" />
+        </models>
+    </group>
+
+    <group>
+        <translate time="100.0">
+            <point X="150.0" Y="0.0" Z="0.0"/>
+            <point X="138.6" Y="0.0" Z="28.7"/>
+            <point X="106.1" Y="0.0" Z="53.0"/>
+            <point X="57.4" Y="0.0" Z="69.3"/>
+            <point X="0.0" Y="0.0" Z="75.0"/>
+            <point X="-57.4" Y="0.0" Z="69.3"/>
+            <point X="-106.1" Y="0.0" Z="53.0"/>
+            <point X="-138.6" Y="0.0" Z="28.7"/>
+            <point X="-150.0" Y="0.0" Z="0.0"/>
+            <point X="0.0" Y="-300.0" Z="0.0"/>
+        </translate>
+        <models>
+            <model file = "comet.3d" />
+        </models>
+    </group>
+</scene>
